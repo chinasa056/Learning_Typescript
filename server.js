@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 // const sandBox = require("./public/functionType")
 // const typeAliases = require("./public/typeAliases")
-const classes = require("./public/classes")
+const classes = require("./public//pbl_private_access")
 
 const PORT = 3345
 
