@@ -1,5 +1,3 @@
-import {Invoice} from "./classes/invoice.js"
-
 // classes are used to create a blueprnt of an object; every object createdfrom this class will inherit the properties of the class and have access to its methods;
 
 // class Invoice {
@@ -18,6 +16,12 @@ import {Invoice} from "./classes/invoice.js"
 //     return `${this.client} ows ${this.amount} for ${this.details}`
 // }
 // }
+
+
+import {Invoice} from "./classes/invoice.js"
+import {Payment} from "./classes/payments.js";
+import {hasFormatter} from "./interfaces/hasFormatter.js"
+
 
 // to instanciate the class
 const invoiceOne = new Invoice("Sammy", "social media management", 300)
