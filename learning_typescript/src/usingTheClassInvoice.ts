@@ -18,10 +18,15 @@
 // }
 
 
-import {Invoice} from "./classes/invoice.js"
-import {Payment} from "./classes/payments.js";
-import {hasFormatter} from "./interfaces/hasFormatter.js"
+import { Invoice } from "./classes/invoice.js"
+import { Payment } from "./classes/payments.js";
+import { hasFormatter } from "./interfaces/hasFormatter.js"
 
+let docOne: hasFormatter;
+let docTwo: hasFormatter;
+
+docOne = new Invoice("Amaya", "beauty facials work", 200)
+docTwo = new Payment("Alexa", "Hair grooming work", 40)
 
 // to instanciate the class
 const invoiceOne = new Invoice("Sammy", "social media management", 300)

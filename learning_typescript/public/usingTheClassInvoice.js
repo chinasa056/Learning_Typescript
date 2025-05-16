@@ -14,6 +14,11 @@
 // }
 // }
 import { Invoice } from "./classes/invoice.js";
+import { Payment } from "./classes/payments.js";
+let docOne;
+let docTwo;
+docOne = new Invoice("Amaya", "beauty facials work", 200);
+docTwo = new Payment("Alexa", "Hair grooming work", 40);
 // to instanciate the class
 const invoiceOne = new Invoice("Sammy", "social media management", 300);
 const invoiceTwo = new Invoice("Amaya", "building a website", 600);
